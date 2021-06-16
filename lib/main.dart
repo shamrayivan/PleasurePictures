@@ -93,7 +93,7 @@ class _MyAppState extends State<MyApp> {
     }
 
     return MaterialApp(
-      title: 'Picturn',
+      title: 'Pleasure',
       theme: ThemeData(primarySwatch: Colors.blue),
       //home: NavigationBarView(),
        home: isFirstRun

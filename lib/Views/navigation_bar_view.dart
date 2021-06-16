@@ -67,7 +67,7 @@ class _NavigationBarView extends State<NavigationBarView> {
                   Icons.filter,
                   size: 20,
                 ),
-                label: 'Feed'),
+                label: 'Посты'),
             BottomNavigationBarItem(
                 icon: Icon(
                   Icons.add_a_photo,

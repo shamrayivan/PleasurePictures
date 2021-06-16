@@ -37,7 +37,7 @@ class ProfileViewHeader implements SliverPersistentHeaderDelegate {
             ),
           ),
         ),
-        ProfilePhotoEditButton(this.profileViewModel),
+        // ProfilePhotoEditButton(this.profileViewModel),
         Positioned(
           left: 24.0,
           right: 16.0,

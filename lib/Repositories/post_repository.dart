@@ -7,11 +7,6 @@ import 'database_provider.dart';
 class PostRepository {
   var databaseProvider = DatabaseProvider();
 
-  Future<String> downloadURLExample() async {
-    return await firebase_storage.FirebaseStorage.instance
-        .ref('images/4.jpg')
-        .getDownloadURL();
-  }
 
   Future<void> savePost(Post post) async {
     this.databaseProvider.savePost(post);

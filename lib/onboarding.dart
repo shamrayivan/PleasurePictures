@@ -58,10 +58,10 @@ class IntroScreen extends StatelessWidget{
         PageViewModel(
           title: 'Today a reader, tomorrow a leader',
           body: 'Start your journey',
-          footer: ButtonWidget(
-            text: 'Start Reading',
-            onClicked: () => goToHome(context),
-          ),
+          // footer: ButtonWidget(
+          //   text: 'Start Reading',
+          //   onClicked: () => goToHome(context),
+          // ),
           image: Image.asset('res/images/onboarding2.gif'),
         ),
       ],
