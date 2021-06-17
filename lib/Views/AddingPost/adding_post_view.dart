@@ -141,7 +141,7 @@ class _AddingPostView extends State<AddingPostView> {
 
     if (imageFile == null) return;
 
-    String albumName = 'PicturnMedia';
+    String albumName = 'PleasurePicture';
     File tmpFile = File(imageFile.path);
     print('полный путь картинки:   ' + tmpFile.path.toString());
     print('перед сохранением count ' +

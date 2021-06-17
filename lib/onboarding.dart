@@ -31,7 +31,7 @@ class OnboardingRoute extends StatelessWidget {
             Text('to the world of aestetic pictures',style: TextStyle(color: Color.fromARGB(
                 240, 3, 13, 14),
                 fontFamily: 'Helvetica',
-                fontSize: 25
+                fontSize: 20
             ),
             ),
             Flexible(child: IntroScreen()) ],
